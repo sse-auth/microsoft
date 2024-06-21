@@ -1,28 +1,32 @@
 {
-  "name": "@sse-auth/repotem",
-  "version": "1.0.0",
+  "name": "@sse-auth/microsoft",
+  "version": "2.0.0",
   "description": "",
   "main": "dist/index.js",
-  "types": "dist/.d.ts",
+  "types": "dist/MicrosoftLogin.d.ts",
   "scripts": {
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sse-auth/repotem.git"
+    "url": "git+https://github.com/sse-auth/microsoft.git"
   },
   "author": "SSE World",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sse-auth/repotem/issues"
+    "url": "https://github.com/sse-auth/microsoft/issues"
   },
-  "homepage": "https://github.com/sse-auth/repotem#readme",
+  "homepage": "https://github.com/sse-auth/microsoft#readme",
   "dependencies": {
+    "@azure/msal-browser": "^3.17.0",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "react": "latest",
     "react-dom": "latest",
     "tslib": "latest",
     "typescript": "latest"
+  },
+  "devDependencies": {
+    "@microsoft/microsoft-graph-types": "^2.40.0"
   }
 }
