@@ -1,0 +1,28 @@
+{
+  "name": "@sse-auth/repotem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sse-auth/repotem.git"
+  },
+  "author": "SSE World",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sse-auth/repotem/issues"
+  },
+  "homepage": "https://github.com/sse-auth/repotem#readme",
+  "dependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tslib": "latest",
+    "typescript": "latest"
+  }
+}

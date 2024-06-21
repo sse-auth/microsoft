@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "target": "ES6",
+      "module": "CommonJS",
+      "lib": ["ES6", "DOM"],
+      "declaration": true,
+      "declarationMap": true, // Generate source maps for .d.ts files
+      "sourceMap": true, // Generate source maps for debugging
+      "outDir": "./dist", // Output directory for compiled files
+      "strict": true, // Enable all strict type-checking options
+      "esModuleInterop": true, // Enable compatibility with ES modules
+      "skipLibCheck": true, // Skip type checking of all declaration files
+      "forceConsistentCasingInFileNames": true, // Ensure consistent casing in file names
+      "resolveJsonModule": true, // Include JSON files in imports
+      "moduleResolution": "node", // Node.js module resolution algorithm
+      "rootDir": "./src", // Root directory of input files
+      "baseUrl": "./"
+    },
+    "include": [
+      "src/**/*", // Files to include in compilation
+      "src/*"
+    ],
+    "exclude": ["node_modules"]
+  }
